@@ -48,7 +48,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'deep_merge', '~> 1.2.2'
   spec.add_runtime_dependency 'diff-lcs', '>= 1.5.0'
   spec.add_runtime_dependency 'pathspec', '~> 1.1'
-  spec.add_runtime_dependency 'puppet_forge', '~> 5.0'
+  spec.add_runtime_dependency 'puppet_forge', '>= 5', '< 7'
 
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
