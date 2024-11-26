@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
   # PDK Rubygems
   spec.add_runtime_dependency 'ffi', '>= 1.15.5', '< 2.0.0'
-  spec.add_runtime_dependency 'minitar', '~> 0.8'
+  spec.add_runtime_dependency 'minitar', '>= 0.8', '< 2.0'
 
   # Bundler
   spec.add_runtime_dependency 'bundler', '>= 2.1.0', '< 3.0.0'
