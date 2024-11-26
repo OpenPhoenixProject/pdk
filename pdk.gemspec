@@ -42,7 +42,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'json-schema', '~> 5.0'
 
   #  PDK build
-  spec.add_runtime_dependency 'puppet-modulebuilder', '~> 1.0'
+  spec.add_runtime_dependency 'puppet-modulebuilder', '>= 1', '< 3'
 
   # Other deps
   spec.add_runtime_dependency 'deep_merge', '~> 1.2.2'
