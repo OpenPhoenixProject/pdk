@@ -23,7 +23,7 @@ group :test do
   gem 'simplecov-console'
 
   # Temporary exclusion required as these versions are currently broken for us
-  gem 'rubocop-factory_bot', '!= 2.26.0', require: false
+  gem 'rubocop-factory_bot', '>= 0', require: false
   gem 'rubocop-rspec_rails', '!= 2.29.0', require: false
 end
 
